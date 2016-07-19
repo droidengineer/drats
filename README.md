@@ -1,5 +1,7 @@
-#TermBox for D
-This is a port of the TermBox TUI facility for the D programming language.
+# DRATS
+D curses/termbox-like pure library
+
+This was a port of the TermBox TUI facility for the D programming language but I removed the dependencies on the C library API by writing it from original in D. It's functional.
 
 
 ----
