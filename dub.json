@@ -1,0 +1,23 @@
+{
+	"name": "drats",
+	"authors": [
+			"B. Gian James"
+	],
+	"description": "Pure D library replacement for (n)curses.",
+	"homepage": "http://github.com/droidengineer/drats",
+	"copyright": "Copyright © 2016 Convoluted Systems, LLC",
+	"license": "CDDL",
+	"targetType": "library",
+	"targetPath": "build",
+	"workingDirectory": "build",
+	"configurations": [
+			{
+					"name": "library"
+			},
+			{
+					"name": "app",
+					"targetType": "executable",
+					"mainSourceFile": "app/main.d"
+			}
+	]
+}
